@@ -1,0 +1,176 @@
+body {
+  background-color: #485461;
+  background-image: linear-gradient(135deg, #485461 0%, #28313b 74%);
+  overflow-x: hidden;
+  transform-style: preserve-3d;
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+}
+.dropdown {
+    margin: 0 auto;
+}
+nav {
+    height: 60px;
+    background: #2c3e50;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0px;
+}
+.logo {
+    padding: 5px 0px 0px 80px;
+    width: 150px;
+    height: auto;
+    color: white;
+}
+.logo:hover {
+    color: #C9C9C9;
+}
+.logot {
+    padding: 5px 0px 0px 80px;
+    width: 150px;
+    height: auto;
+    color: white;
+}
+.logot:hover {
+    color: #C9C9C9;
+}
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    float: right;
+    margin-right: 30px;
+}
+nav ul li {
+    background: #2c3e50;
+    position: relative;
+    List-style: none;
+    display: inline-block;
+}
+
+
+nav ul li a {
+    display: block;
+    padding: 0px 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+nav ul li a:hover {
+    color: #C9C9C9;
+}
+nav ul ul {
+    position: absolute;
+    top: 60px;
+    display: none;
+
+}
+nav ul li:hover>ul {
+    display: block;
+}
+nav ul ul li {
+    width:150px;
+    float: none;
+    display: List-item;
+    position: relative;
+}
+nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 150px;
+}
+.tesla {
+
+}
+img {
+    height: 400px;
+    width: 600px;
+}
+
+#tsla {
+    margin-left: 330px;
+    margin-bottom: 70px;
+}
+
+
+
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 95px;
+    color: white;
+}
+h3 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 75px;
+    color: white;
+}
+h2:hover {
+    color: #C9C9C9;
+}
+h5 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 75px;
+    color: white;
+}
+h5:hover {
+   color: #C9C9C9;
+}
+.models {
+    font-size: 20px;
+    color: white
+}
+#perf {
+    margin-left: 340px;
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
+@media (max-width: 500px) {
+    body {
+        background-color: #485461;
+        background-image: linear-gradient(135deg, #485461 0%, #28313b 74%);
+        overflow-x: hidden;
+        transform-style: preserve-3d;
+        margin: 0px;
+        padding: 0px;
+        min-height: 100vh;
+        font-size: 16px;
+    }
+}
+@media (max-width: 500px) {
+    nav {
+        height: 75px;
+        background: #2c3e50;
+        box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+        position: sticky;
+        top: 0px;
+       }
+}
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+    }
+}
+footer {
+    font-size: 25px;
+    color: white;
+    position: center;
+}
+footer:hover {
+    color: #C9C9C9;
+}
+p {
+    text-decorations: none;
+}
+#footer2 {
+    margin-bottom: 65px;
+    href="www.tesla.com"
+}
+
+
+
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="checkout.css">
+    <meta charset="UTF-8">
+    <title>Check-out</title>
+</head>
+<body>
+    <div class="mobile">
+ <div class="credit-card">
+   <span id="card-name-display"></span>
+   <span id="card-number-display"></span>
+   <span id="expiration-display"</span>
+ </div>
+
+ <div class="payment-form">
+   <form>
+    <fieldset>
+      <label for="card-name">Full Name on Card</label>
+      <input id="card-name" type="text">
+      <label for="card-number">Credit Card Number</label>
+      <input id="card-number" maxlength="19" minlength="13" pattern="[0-9]*" type="text">
+      <label for="expiration">Expiration Date</label><label for="security" id="sec-label">Security Code</label>
+      <input id="expiration" maxlength="4" minlength="4" pattern="[0-9]*" placeholder="MMYY" type="text">
+
+      <input id="security" maxlength="4" minlength="2" pattern="[0-9]*" placeholder="1234" type="text">
+    </fieldset>
+  <fieldset>
+    <label for="address">
+       <input id="address" name="address" type="checkbox" value="address">
+       <span>My billing address is different than where I would like my order shipped<span>
+     </label>
+  </fieldset>
+  <button type="submit">Continue</button>
+      </div>
+    </div>
+</form>
+</body>
+</html>
